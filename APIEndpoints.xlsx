@@ -1,0 +1,32 @@
+[
+  {
+    "Endpoint": "/products",
+    "Method": "GET",
+    "Description": "Fetches All of the products from Sanity",
+    "Response": "JSON array with product data"
+  }
+]
+[
+  {
+    "Endpoint": "/orders",
+    "Method": "POST",
+    "Description": "Takes all the orders in Sanity",
+    "Response": "Order data to Sanity and Order confirmation to User"
+  }
+]
+[
+  {
+    "Endpoint": "/shipment",
+    "Method": "GET",
+    "Description": "Shipped the product according to the given data",
+    "Response": "Shipment ID, order ID, status"
+  }
+]
+[
+  {
+    "Endpoint": "/tracking",
+    "Method": "GET",
+    "Description": "Fetch tracking details to the user ",
+    "Response": "JSON with tracking product"
+  }
+]
