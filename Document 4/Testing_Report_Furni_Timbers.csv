@@ -1,0 +1,9 @@
+Test Case ID, Test Case Description, Test Steps, Expected Result, Actual Result, 	Status, Remarks
+TC001, Checking Product Listening page, Load product page , Products displayed having no issues , All product details rendered, Passed, All products are displaying
+TC002, Checking dynamic page , 1) click product 2) Checking dynamic page and details, Dynamic page is working render Image and details, Working as Expected, Passed, All product rendered dynamically
+TC003, Add to cart feature, 1)Click to Add to Cart 2) Checking Cart page, Item is added to Cart, Work as expected, Passed, Product details and sub totals is displayed
+TC004, Api error handling, Use try catch to prevent it , Errors shows message, Work as expected, Passed, Error recovery works
+TC005, Responsive design, 1) Checking in iPad 2) Checking in mobile phone, Adjust for both, work as expected, Passed, Responsive design for all devices
+TC006, Search functionality, 1) Searching product 2)Checking result, Product matched and result comes, Work as expected, Passed, search easily items
+TC007, Cart Persistence, 1)Add item to cart 2)Refresh the page, Product still available, work as expected, Passed, Product available after leaving
+TC008, Checkout, Clicking on Checkout , redirected to Checkout page, work as expected, Passed, User can checkout 
